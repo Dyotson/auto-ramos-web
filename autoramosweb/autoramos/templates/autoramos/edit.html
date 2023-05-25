@@ -1,0 +1,27 @@
+{% extends 'autoramos/base.html' %***REMOVED***
+    
+{% block title %***REMOVED***
+Editar reserva
+{% endblock %***REMOVED***
+
+{% load crispy_forms_tags %***REMOVED***
+
+{% block body %***REMOVED***
+<header class="masthead d-flex align-items-center">
+    <div class="container px-4 px-lg-5 text-center">
+        <h1>Editar reserva</h1>
+        <form method="POST" class="form-group">
+    ***REMOVED***% csrf_token %***REMOVED***
+    ***REMOVED***% crispy form %***REMOVED***
+        </form>
+    </div>
+    
+    <script>
+    $(function (***REMOVED*** {
+        $("#id_date"***REMOVED***.datepicker({
+        format:'dd/mm/yyyy',
+    ***REMOVED***;
+***REMOVED***;
+    </script>
+</header>
+{% endblock %***REMOVED***

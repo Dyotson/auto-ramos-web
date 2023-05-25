@@ -1,0 +1,18 @@
+{% extends 'autoramos/base.html' %***REMOVED***
+
+{% block title %***REMOVED***ReLogin{% endblock title %***REMOVED***
+
+{% load crispy_forms_tags %***REMOVED***
+
+{% block body %***REMOVED***
+<header class="masthead d-flex align-items-center">
+    <div class="container px-4 px-lg-5 text-center">
+        <h1>ReLogin</h1>
+        <form method="POST" class="form-group">
+    ***REMOVED***% csrf_token %***REMOVED***
+    ***REMOVED***{ form|crispy ***REMOVED***
+        <button type="submit" class="btn btn-success">Login</button>
+        </form>
+    </div>
+</header>
+{% endblock body %***REMOVED***
